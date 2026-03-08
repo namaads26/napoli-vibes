@@ -1,0 +1,136 @@
+.cart-toggle{
+  position:fixed;
+  right:16px;
+  bottom:16px;
+  width:60px;
+  height:60px;
+  border:none;
+  border-radius:50%;
+  background:#111;
+  color:#f4c542;
+  font-size:26px;
+  cursor:pointer;
+  box-shadow:0 10px 25px rgba(0,0,0,0.22);
+  z-index:120;
+}
+
+.cart-count{
+  position:absolute;
+  top:-4px;
+  right:-4px;
+  min-width:24px;
+  height:24px;
+  padding:0 6px;
+  border-radius:20px;
+  background:#f4c542;
+  color:#111;
+  font-size:12px;
+  font-weight:800;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.cart-panel{
+  position:fixed;
+  left:12px;
+  right:12px;
+  bottom:86px;
+  background:#111;
+  color:white;
+  border-radius:20px;
+  padding:18px;
+  box-shadow:0 14px 35px rgba(0,0,0,0.28);
+  z-index:110;
+  max-width:420px;
+  margin:0 auto;
+}
+
+.cart-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:14px;
+}
+
+.cart-header h3{
+  margin:0;
+  font-size:20px;
+}
+
+.cart-close{
+  width:34px;
+  height:34px;
+  border:none;
+  border-radius:10px;
+  background:#f4c542;
+  color:#111;
+  font-size:22px;
+  line-height:1;
+  cursor:pointer;
+}
+
+.cart-empty{
+  margin:0;
+  color:rgba(255,255,255,0.78);
+  font-size:14px;
+}
+
+.cart-item{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  margin-bottom:12px;
+}
+
+.cart-info p{
+  margin:0;
+  font-weight:700;
+  font-size:14px;
+}
+
+.cart-info small{
+  color:rgba(255,255,255,0.7);
+}
+
+.cart-actions{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.cart-actions button{
+  width:30px;
+  height:30px;
+  border:none;
+  border-radius:8px;
+  background:#f4c542;
+  color:#111;
+  cursor:pointer;
+  font-weight:800;
+}
+
+.cart-actions span{
+  min-width:18px;
+  text-align:center;
+  font-weight:700;
+}
+
+.cart-panel h4{
+  margin-top:10px;
+  font-size:18px;
+}
+
+.cart-order-btn{
+  width:100%;
+  margin-top:12px;
+  background:#f4c542;
+  border:none;
+  padding:13px;
+  color:#111;
+  border-radius:12px;
+  font-weight:800;
+  cursor:pointer;
+  font-size:15px;
+}
