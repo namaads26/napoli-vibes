@@ -1,15 +1,16 @@
 import "./Hero.css"
 import hero from "../../assets/images/hero.jpg"
+import { useNavigate } from "react-router-dom"
 
-export default function Hero(){
+export default function Hero() {
+  const navigate = useNavigate()
 
-  function goToMenu(){
-    const section = document.getElementById("menu")
-    section.scrollIntoView({behavior:"smooth"})
+  function goToMenu() {
+    navigate("/menu")
   }
 
-  return(
-    <section className="hero" style={{backgroundImage:`url(${hero})`}}>
+  return (
+    <section className="hero" style={{ backgroundImage: `url(${hero})` }}>
       <div className="overlay"></div>
 
       <div className="hero-content">
@@ -21,9 +22,7 @@ export default function Hero(){
           Pizzas irresistibles, bien cargadas y listas para pedir desde tu celu.
         </p>
 
-        <button onClick={goToMenu}>
-          Ver menú
-        </button>
+        <button onClick={goToMenu}>Ver menú</button>
       </div>
     </section>
   )

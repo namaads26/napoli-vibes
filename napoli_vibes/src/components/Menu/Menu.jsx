@@ -5,7 +5,7 @@ export default function Menu({ addProduct }) {
   const popularPizzas = menu.filter((pizza) => pizza.popular)
 
   return (
-    <section id="menu" className="menu">
+    <section className="menu">
       <div className="menu-title">
         <span>NUESTRAS PIZZAS</span>
         <h2>Elegí tu favorita</h2>
@@ -28,7 +28,6 @@ export default function Menu({ addProduct }) {
 
                 <div className="card-bottom">
                   <span>${pizza.price}</span>
-
                   <button onClick={() => addProduct(pizza)}>
                     Agregar
                   </button>
@@ -55,7 +54,6 @@ export default function Menu({ addProduct }) {
 
                 <div className="card-bottom">
                   <span>${pizza.price}</span>
-
                   <button onClick={() => addProduct(pizza)}>
                     Agregar
                   </button>

@@ -29,7 +29,9 @@ export default function Cart({
         <div className="cart-panel">
           <div className="cart-header">
             <h3>Tu pedido</h3>
-            <button className="cart-close" onClick={toggleCart}>×</button>
+            <button className="cart-close" onClick={toggleCart}>
+              ×
+            </button>
           </div>
 
           {cart.length === 0 ? (

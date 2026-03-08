@@ -4,7 +4,11 @@
   box-sizing:border-box;
 }
 
+html, body, #root{
+  min-height:100%;
+}
+
 body{
   font-family:Arial, Helvetica, sans-serif;
-  background:#111;
+  background:#fff7e6;
 }

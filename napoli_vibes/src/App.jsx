@@ -6,7 +6,6 @@ import "./App.css"
 
 export default function App() {
   const [cart, setCart] = useState([])
-  const [cartOpen, setCartOpen] = useState(false)
 
   function addProduct(product) {
     const productExists = cart.find((item) => item.id === product.id)
@@ -61,18 +60,12 @@ export default function App() {
     window.open(url, "_blank")
   }
 
-  function toggleCart() {
-    setCartOpen(!cartOpen)
-  }
-
   return (
     <>
       <Hero />
       <Menu addProduct={addProduct} />
       <Cart
         cart={cart}
-        cartOpen={cartOpen}
-        toggleCart={toggleCart}
         addProduct={addProduct}
         removeProduct={removeProduct}
         sendOrder={sendOrder}
