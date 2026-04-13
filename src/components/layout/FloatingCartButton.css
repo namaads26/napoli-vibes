@@ -1,0 +1,35 @@
+.floating-cart {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 62px;
+  height: 62px;
+  border-radius: 999px;
+  background: var(--color-primary);
+  color: var(--color-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 18px 40px rgba(255, 200, 87, 0.32);
+  z-index: 1100;
+}
+
+.floating-cart__icon {
+  font-size: 1.5rem;
+}
+
+.floating-cart__badge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: #ff3b30;
+  color: white;
+  font-size: 0.82rem;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}

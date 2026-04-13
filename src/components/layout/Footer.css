@@ -1,0 +1,12 @@
+.footer {
+  padding: 24px 0 40px;
+  background: transparent;
+}
+
+.footer__container {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  text-align: center;
+  color: var(--color-text-soft);
+  font-size: 0.95rem;
+}
