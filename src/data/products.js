@@ -28,7 +28,7 @@ const products = [
     name: 'BACÓN Y CHEDDAR',
     description: 'SALSA, MUZZARELLA, QUESO CHEDDAR, BACÓN Y VERDEO.',
     price: 9900,
-    image: '/images/hero-napoli.jpg',
+    image: '/images/bacon.png',
     category: 'Pizzas especiales',
   },
   {
