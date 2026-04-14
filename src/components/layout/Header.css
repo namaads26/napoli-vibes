@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(10, 10, 10, 0.94);
+  background: rgba(0, 0, 0, 0.308);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
@@ -27,8 +27,8 @@
 }
 
 .header__logo {
-  width: 46px;
-  height: 46px;
+  width: 106px;
+  height: 96px;
   object-fit: contain;
 }
 
